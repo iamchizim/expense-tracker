@@ -3,30 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Expense Tracker</title>
     <link rel="stylesheet" href="./styles.css">
     <script defer src="./script.js"></script>
 </head>
 <body>
-    <h1>Expense Tracker</h1>
-    <form action="">
-        <label for="description">Description</label>
-        <input id="description" type="text">
-        <label for="amount">Amount</label>
-        <input id="amount" type="text">
-        <label for="date">Date</label>
-        <input id="date" type="date" name="" id="">
-        <button id="add" type="submit">Add Item</button>
-    </form>
-    <table>
-        <thead>
-            <th>Description</th>
-            <th>Amount</th>
-            <th>Date</th>
-        </thead>
-        <tbody>
+    <div class="container">
+        <h1>Expense Tracker</h1>
+        <form action="">
+            <label for="description">Description</label>
+            <input id="description" type="text">
+            <label for="amount">Amount</label>
+            <input id="amount" type="text">
+            <label for="date">Date</label>
+            <input id="date" type="date" name="" id="">
+            <button id="add" type="submit">Add Item</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Description</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
 
-        </tbody>
-    </table>
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
